@@ -10,8 +10,7 @@ export const ResultadoVideojuegos = ({ genero }) => {
   }, []);
 
   const getVideojuegos = async () => {
-    const url =
-      "https://api.rawg.io/api/games?key=6e6d676e6d0f49c9a78783fd3ca56cb7&genres=action";
+    const url = `https://api.rawg.io/api/games?key=6e6d676e6d0f49c9a78783fd3ca56cb7&genres=${genero}`;
     const respuesta = await fetch(url);
     const { results } = await respuesta.json();
     const juegos = results.map((juego) => {

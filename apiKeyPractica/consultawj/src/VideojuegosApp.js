@@ -7,13 +7,6 @@ import { ResultadoVideojuegos } from "./componentes/ResultadoVideojuegos";
 export const VideojuegosApp = () => {
   const [generos, setGeneros] = useState(["action"]);
 
-  const agregaGenero = () => {
-    setGeneros((estadoActualGeneros) => [
-      ...estadoActualGeneros,
-      "Nuevo Género",
-    ]);
-  };
-
   return (
     <>
       <div className="jumbotron jumbotron-fluid">
