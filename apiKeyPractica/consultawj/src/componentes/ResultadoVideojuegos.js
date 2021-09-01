@@ -1,3 +1,5 @@
+//A01376466_A01746926_A01746769_A01654827
+
 import React, { useState, useEffect } from "react";
 import { InfoVideojuegos } from "./InfoVideojuegos";
 export const ResultadoVideojuegos = ({ genero }) => {

@@ -1,3 +1,5 @@
+//A01376466_A01746926_A01746769_A01654827
+
 import React, { useState } from "react";
 import { AgregaGenero } from "./componentes/AgregaGenero";
 import { ResultadoVideojuegos } from "./componentes/ResultadoVideojuegos";
